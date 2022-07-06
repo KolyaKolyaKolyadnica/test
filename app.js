@@ -177,3 +177,5 @@ const getSwitchImgModalLeft = (e) => {
     }
   }
 };
+
+// console.log("test changes for git");
