@@ -78,6 +78,7 @@ let currentImgIndex;
 const imagesListItems = galleryItems.map((galleryItem) => {
   const imgLiEl = document.createElement("li");
   const linkEl = document.createElement("a");
+  // linkEl.href = `${galleryItem.original}`;
   const imgEl = document.createElement("img");
 
   imgLiEl.classList.add("gallery__item");
